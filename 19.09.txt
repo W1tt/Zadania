@@ -1,0 +1,12 @@
+195.130.25.0/24
+255.255.255.0 - Maska
+Dla 3 podsieci potrzebne są 2 bity
+1111 1111.1111 1111.1111 1111.0000 0000 - Maska w zapisie binarnym
+1111 1111.1111 1111.1111 1111.1100 0000 - 2 bity zarezerwowane na podsieci
+
+Nowa maska: 255.255.255.192
+Podsieć 1: 195.130.25.0 (ostatnia liczba w zapisie binarnym: 0000 0000)
+Podsieć 2: 195.130.25.64 (ostatnia liczba w zapisie binarnym: 0100 0000)
+Podsieć 3: 195.130.25.128 (ostatnia liczba w zapisie binarnym: 1000 0000)
+
+Przez to, że w nowej masce mamy o 2 więcej wiodących jedynek w zapisie binarnym, po adresach podsieci możemy dodawać /26, np.: 1 podsieć ma adres 195.130.25.0/26
