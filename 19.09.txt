@@ -9,9 +9,9 @@ Podsieć 1: 195.130.25.0 (ostatnia liczba w zapisie binarnym: 0000 0000)
   Roz: 195.130.25.63
   195.130.25.1 do 195.130.25.62
 Podsieć 2: 195.130.25.64 (ostatnia liczba w zapisie binarnym: 0100 0000)
-  Roz:  195.130.25.64
+  Roz:  195.130.25.127/26
   195.130.25.65 do 195.130.25.126
 Podsieć 3: 195.130.25.128 (ostatnia liczba w zapisie binarnym: 1000 0000)
-  Roz: 195.130.25.128
-  195.130.25.129 do 195.130.25.254
+  Roz: 195.130.25.191/26
+   195.130.25.129 do 195.130.25.190/26
 Przez to, że w nowej masce mamy o 2 więcej wiodących jedynek w zapisie binarnym, po adresach podsieci możemy dodawać /26, np.: 1 podsieć ma adres 195.130.25.0/26
